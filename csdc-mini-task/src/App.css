@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.art-item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+.art-item img {
+  width: 100%;
+  height: auto;
+}
